@@ -14,7 +14,7 @@ body {
 
 header {
     text-align: center;
-    padding: 50px;
+    padding: 3.5rem;
 }
 
 h1{
@@ -22,18 +22,67 @@ h1{
     color: #e53170;
 }
 
-p {
+h3 {
+    color: white;
+}
+
+img {
+    height: 100px;
+    float: left;
+}
+
+a {
+    color: #4ea8d3;
+    text-decoration: none;
+}
+
+/* UTILS */
+.container {
+    background-color: white;
+    max-width: 80%;
+    margin: 100px auto;
+}
+
+.nd-container {
+    background-color: white;
+    max-width: 80%;
+    margin: 100px auto;
+}
+
+#paragraph{
+    margin-bottom: 3.5rem;
     text-align: center;
     font-size: 20px;
     font-weight: 500;
 }
 
+#contatti {
+    margin: 0px 2rem;
+}
 
-/* UTILS */
-.container {
-    background-color: white;
-    height: 700px;
-    max-width: 80%;
-    max-height: 50%;
-    margin: 100px auto;
+.clearfix {
+    content: '';
+    clear: both;
+    display: table;
+
+}
+
+
+.card{
+    background-color: black;
+    float: left;
+    margin: 7px;
+    width: calc(100% / 3 - 14px);
+}
+
+.role {
+    color: white;
+}
+
+.contact {
+    float: left;
+    padding: 15px;
+}
+.row {
+    width: 100%;
 }
