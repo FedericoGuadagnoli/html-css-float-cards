@@ -1,0 +1,31 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* GENERICS */
+body {
+    background-color: rgb(32, 31, 31);
+    font-family: 'Fredoka', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+h1{
+    font-size: 50px;
+    color: #e53170;
+}
+/* UTILS */
+.container {
+    background-color: white;
+    height: 700px;
+    max-width: 80%;
+    max-height: 50%;
+    margin: 100px auto;
+}
